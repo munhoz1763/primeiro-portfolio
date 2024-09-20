@@ -1,0 +1,106 @@
+@media screen and (max-width: 1020px) {
+
+    
+    /*gerais*/
+    .flex {
+        flex-direction: column;
+    }
+
+    h2.titulo {
+        font-size: 32px;
+        line-height: 30px;
+    }
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    header nav ul li a{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 4%;
+    }
+    /*cabeçalho*/
+    .btn-abrir{
+        display: block;
+    }
+    .menu-desktop,
+    .btn-contato {
+        display: none;
+    }
+
+    /*topo do site*/
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 100%;
+    }
+
+    /*especialidades*/
+    section.especialidades {
+        padding: 40px 8%;
+    }
+
+    /*sobre*/
+    section.sobre {
+        padding: 40px 8%;
+    }
+
+    section.sobre .flex {
+        flex-direction: column-reverse;
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .btn-social {
+        text-align: center;
+    }
+
+    .img-sobre img {
+        width: 100%;
+    }
+
+    /*portfolio*/
+    section.portfolio {
+        padding: 80px 8%;
+    }
+
+    .img-port {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    section.portfolio .flex {
+        margin-top: 50px;
+        gap: 60px;
+    }
+
+    /*rodape*/
+    footer .flex {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    footer .line-footer {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    section.portfolio .img-port {
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
